@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     size_t n;
-    Insurance** ins = createArr("11.txt", n);
+    Insurance** ins = createArr("insurance.txt", n);
     printArr(ins, n);
     cout << "Total af all insurances = " << calculateTotalValue(ins,n) << endl;
 
